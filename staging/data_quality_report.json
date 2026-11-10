@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-11-10T13:57:13.816Z",
+  "results": [
+    {
+      "filename": "orders_2026-10-28.csv",
+      "source": "ERP",
+      "rowCount": 12,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "product_id",
+        "order_date",
+        "quantity",
+        "unit_price_jpy",
+        "gross_amount_jpy",
+        "order_status",
+        "channel"
+      ],
+      "issues": [
+        {
+          "type": "info",
+          "code": "COLUMNS",
+          "message": "Columns present: order_id, customer_id, product_id, order_date, quantity, unit_price_jpy, gross_amount_jpy, order_status, channel"
+        }
+      ],
+      "isClean": true,
+      "grain": "order_id + customer_id"
+    },
+    {
+      "filename": "orders_2026-10-29.csv",
+      "source": "ERP",
+      "rowCount": 12,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "product_id",
+        "order_date",
+        "quantity",
+        "unit_price_jpy",
+        "gross_amount_jpy",
+        "order_status",
+        "channel"
+      ],
+      "issues": [
+        {
+          "type": "info",
+          "code": "COLUMNS",
+          "message": "Columns present: order_id, customer_id, product_id, order_date, quantity, unit_price_jpy, gross_amount_jpy, order_status, channel"
+        }
+      ],
+      "isClean": true,
+      "grain": "order_id + customer_id"
+    },
+    {
+      "filename": "orders_2026-10-30.csv",
+      "source": "ERP",
+      "rowCount": 12,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "product_id",
+        "order_date",
+        "quantity",
+        "unit_price_jpy",
+        "gross_amount_jpy",
+        "order_status",
+        "channel"
+      ],
+      "issues": [
+        {
+          "type": "info",
+          "code": "COLUMNS",
+          "message": "Columns present: order_id, customer_id, product_id, order_date, quantity, unit_price_jpy, gross_amount_jpy, order_status, channel"
+        }
+      ],
+      "isClean": true,
+      "grain": "order_id + customer_id"
+    },
+    {
+      "filename": "orders_2026-10-31.csv",
+      "source": "SFTP",
+      "rowCount": 12,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "product_id",
+        "order_date",
+        "quantity",
+        "unit_price_jpy",
+        "gross_amount_jpy",
+        "order_status",
+        "channel"
+      ],
+      "issues": [
+        {
+          "type": "info",
+          "code": "COLUMNS",
+          "message": "Columns present: order_id, customer_id, product_id, order_date, quantity, unit_price_jpy, gross_amount_jpy, order_status, channel"
+        }
+      ],
+      "isClean": true,
+      "grain": "order_id + customer_id"
+    },
+    {
+      "filename": "orders_2026-11-01.csv",
+      "source": "SFTP",
+      "rowCount": 12,
+      "columns": [
+        "order_id",
+        "customer_id",
+        "product_id",
+        "order_date",
+        "quantity",
+        "unit_price_jpy",
+        "gross_amount_jpy",
+        "order_status",
+        "channel"
+      ],
+      "issues": [
+        {
+          "type": "info",
+          "code": "COLUMNS",
+          "message": "Columns present: order_id, customer_id, product_id, order_date, quantity, unit_price_jpy, gross_amount_jpy, order_status, channel"
+        }
+      ],
+      "isClean": true,
+      "grain": "order_id + customer_id"
+    },
+    {
+      "filename": "warehouse_inventory_2026-11-01.csv",
+      "source": "SFTP",
+      "rowCount": 8,
+      "columns": [
+        "sku",
+        "warehouse_id",
+        "on_hand",
+        "reserved",
+        "snapshot_date"
+      ],
+      "issues": [
+        {
+          "type": "error",
+          "code": "MISSING_COLUMNS",
+          "message": "Missing mandatory columns: order_id, order_date, order_status, unit_price_jpy, gross_amount_jpy, order_status, quantity, channel"
+        },
+        {
+          "type": "info",
+          "code": "COLUMNS",
+          "message": "Columns present: sku, warehouse_id, on_hand, reserved, snapshot_date"
+        }
+      ],
+      "isClean": false,
+      "grain": "sku + warehouse_id"
+    }
+  ]
+}
