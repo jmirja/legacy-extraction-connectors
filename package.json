@@ -1,0 +1,31 @@
+{
+  "name": "legacy-extraction-connectors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "inventory": "tsx scripts/inventory_erp.ts",
+    "sftp": "tsx scripts/sftp_staging.ts",
+    "schema": "tsx scripts/schema_checks.ts",
+    "reconcile": "tsx scripts/reconcile_settlement.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "csv-parse": "^7.0.3",
+    "mailparser": "^3.14.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/mailparser": "^3.9.0",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
