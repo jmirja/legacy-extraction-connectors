@@ -4,7 +4,7 @@
   "files": [
     {
       "filename": "orders_2026-10-28.csv",
-      "fullPath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-28.csv",
+      "fullPath": "FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-28.csv",
       "sizeBytes": 788,
       "sha256": "c90853fb441f023f591e7444f5de415e8d0c198f41c7ee353ec37790b0c254d2",
       "rowCount": 12,
@@ -27,7 +27,7 @@
     },
     {
       "filename": "orders_2026-10-29.csv",
-      "fullPath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-29.csv",
+      "fullPath": "FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-29.csv",
       "sizeBytes": 799,
       "sha256": "298cc0ecd987b2f078b56465293f1b3395865d9e800afaac6161dc9ea362df2c",
       "rowCount": 12,
@@ -50,7 +50,7 @@
     },
     {
       "filename": "orders_2026-10-29_REDELIVERED.csv",
-      "fullPath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-29_REDELIVERED.csv",
+      "fullPath": "FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-29_REDELIVERED.csv",
       "sizeBytes": 799,
       "sha256": "298cc0ecd987b2f078b56465293f1b3395865d9e800afaac6161dc9ea362df2c",
       "rowCount": 12,
@@ -73,7 +73,7 @@
     },
     {
       "filename": "orders_2026-10-30.csv",
-      "fullPath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-30.csv",
+      "fullPath": "FDE\\legacy-extraction-connectors\\inputs\\ERP_Order_Exports\\orders_2026-10-30.csv",
       "sizeBytes": 788,
       "sha256": "5adddae0dc7659c6f4d0065a8aae77ce6e7db9934dc644ea7eda3bd9e855b902",
       "rowCount": 12,
