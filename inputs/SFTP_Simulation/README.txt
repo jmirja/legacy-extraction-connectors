@@ -1,0 +1,1 @@
+SIMULATED SFTP: This is a local folder, not a live server. Treat remote/inbound as an SFTP landing directory. Never use real credentials in class. Recommended lab: discover files, copy to a local staging directory, calculate SHA-256, and track processed files. The same filenames may appear again after retries.

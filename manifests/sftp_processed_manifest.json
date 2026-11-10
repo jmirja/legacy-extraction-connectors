@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-11-10T13:53:15.008Z",
+  "entries": [
+    {
+      "filename": "orders_2026-10-31.csv",
+      "sha256": "c445df2aac9b2e2393c3c97b55c401073b7f758c6a9031a11976fa474f6e676d",
+      "sizeBytes": 796,
+      "stagedAt": "2026-11-10T13:53:14.979Z",
+      "status": "staged",
+      "sourcePath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\inputs\\SFTP_Simulation\\remote\\inbound\\orders_2026-10-31.csv",
+      "stagingPath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\staging\\orders_2026-10-31.csv",
+      "notes": "Copied from simulated SFTP inbound"
+    },
+    {
+      "filename": "orders_2026-11-01.csv",
+      "sha256": "a04fd2df79461ce33d87607b0c6d273e338f9f5fb2dbd753ca1323b78312fb92",
+      "sizeBytes": 791,
+      "stagedAt": "2026-11-10T13:53:15.003Z",
+      "status": "staged",
+      "sourcePath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\inputs\\SFTP_Simulation\\remote\\inbound\\orders_2026-11-01.csv",
+      "stagingPath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\staging\\orders_2026-11-01.csv",
+      "notes": "Copied from simulated SFTP inbound"
+    },
+    {
+      "filename": "warehouse_inventory_2026-11-01.csv",
+      "sha256": "55ff558aacf9b398f9af277677af4937d6d92eed55fba1366e99ea7f2dbd59f5",
+      "sizeBytes": 284,
+      "stagedAt": "2026-11-10T13:53:15.007Z",
+      "status": "staged",
+      "sourcePath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\inputs\\SFTP_Simulation\\remote\\inbound\\warehouse_inventory_2026-11-01.csv",
+      "stagingPath": "F:\\Software Development\\FDE\\legacy-extraction-connectors\\staging\\warehouse_inventory_2026-11-01.csv",
+      "notes": "Copied from simulated SFTP inbound"
+    }
+  ]
+}
