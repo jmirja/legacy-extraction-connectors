@@ -1,0 +1,92 @@
+{
+  "settlement": {
+    "source": "finance_settlement_2026-10-30.xlsx",
+    "totalRows": 3,
+    "totalAmount": 486260,
+    "totalQuantity": 0,
+    "uniqueOrders": 1,
+    "dateRange": {
+      "min": "2026-10-28",
+      "max": "2026-10-30"
+    },
+    "columns": [
+      "settlement_date",
+      "payment_channel",
+      "reported_orders",
+      "gross_jpy",
+      "refunds_jpy",
+      "net_jpy"
+    ],
+    "sampleRows": [
+      {
+        "settlement_date": "2026-10-28",
+        "payment_channel": "All Channels",
+        "reported_orders": 12,
+        "gross_jpy": 176930,
+        "refunds_jpy": 10700,
+        "net_jpy": 166230
+      },
+      {
+        "settlement_date": "2026-10-29",
+        "payment_channel": "All Channels",
+        "reported_orders": 12,
+        "gross_jpy": 265240,
+        "refunds_jpy": 117800,
+        "net_jpy": 147440
+      },
+      {
+        "settlement_date": "2026-10-30",
+        "payment_channel": "All Channels",
+        "reported_orders": 12,
+        "gross_jpy": 176930,
+        "refunds_jpy": 4340,
+        "net_jpy": 172590
+      }
+    ]
+  },
+  "erp": {
+    "source": "orders_2026-10-30.csv",
+    "totalRows": 12,
+    "totalAmount": 176930,
+    "totalQuantity": 30,
+    "uniqueOrders": 12,
+    "dateRange": {
+      "min": "2026-10-30",
+      "max": "2026-10-30"
+    },
+    "columns": [
+      "order_id",
+      "customer_id",
+      "product_id",
+      "order_date",
+      "quantity",
+      "unit_price_jpy",
+      "gross_amount_jpy",
+      "order_status",
+      "channel"
+    ],
+    "sampleRows": []
+  },
+  "differences": {
+    "amountDiff": 309330,
+    "quantityDiff": -30,
+    "orderCountDiff": -11,
+    "amountMatch": false,
+    "quantityMatch": false
+  },
+  "notes": [
+    "Differences detected between Finance Settlement and ERP export.",
+    "Amount difference: Settlement is higher by 309,330",
+    "Quantity difference: Settlement is lower by 30",
+    "Possible reasons for differences (to be confirmed against definitions):",
+    "- Gross amount matches between Finance Settlement and ERP export (JPY 176,930).",
+    "- Refunds match between both sources (JPY 4,340).",
+    "- Settlement net amount is higher than ERP paid orders by JPY 19,800.",
+    "- The difference corresponds exactly to two pending ERP orders.",
+    "- Settlement includes pending orders in its net amount, while ERP paid-order totals exclude them.",
+    "- Both sources report 12 orders.",
+    "- Settlement does not provide quantity data; ERP records 30 units.",
+    "- No unexplained financial discrepancy was identified.",
+    "- Confirm pending-order treatment against business settlement rules."
+  ]
+}

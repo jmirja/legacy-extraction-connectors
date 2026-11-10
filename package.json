@@ -7,11 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-  "inventory": "tsx scripts/inventory_erp.ts",
-  "sftp": "tsx scripts/sftp_staging.ts",
-  "schema": "tsx scripts/schema_checks.ts",
-  "reconcile": "tsx scripts/reconcile_settlement.ts"
-},
+    "inventory": "tsx scripts/inventory_erp.ts",
+    "sftp": "tsx scripts/sftp_staging.ts",
+    "schema": "tsx scripts/schema_checks.ts",
+    "reconcile": "tsx scripts/reconcile_settlement.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jmirja/legacy-extraction-connectors.git"
@@ -25,10 +25,13 @@
   "homepage": "https://github.com/jmirja/legacy-extraction-connectors#readme",
   "dependencies": {
     "crypto-js": "^4.2.0",
-    "csv-parse": "^7.0.3"
+    "csv-parse": "^7.0.3",
+    "mailparser": "^3.14.3",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
+    "@types/mailparser": "^3.9.0",
     "@types/node": "^26.6.6",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
